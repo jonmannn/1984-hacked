@@ -1,7 +1,6 @@
 from flask import Flask, request, render_template_string
 from flask_basicauth import BasicAuth
 import os
-import platform
 
 # Create Flask application
 app = Flask(__name__)
