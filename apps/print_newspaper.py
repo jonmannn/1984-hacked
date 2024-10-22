@@ -6,7 +6,7 @@ import subprocess
 def print_file(file_path):
     try:
         # Use the 'lp' command to print the file
-        subprocess.run(['lp', "readyForPressing/{}".format(file_path)], check=True)
+        subprocess.run(['lp', "/readyForPressing/{}".format(file_path)], check=True)
         print(f"Printing {file_path}...")
     except subprocess.CalledProcessError as e:
         print(f"Failed to print the file: {e}")

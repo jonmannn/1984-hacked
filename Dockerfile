@@ -5,7 +5,7 @@ COPY /apps/requirements.txt .
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
-RUN apt-get update && apt-get install -y netcat-traditional iputils-ping
+RUN apt-get update && apt-get install -y netcat-traditional iputils-ping && apt-get install -y vim
 
 # Copy the entire application code
 COPY . .
