@@ -52,6 +52,6 @@ in `/readyForPressing/`
 4. Wait a few moments, as you won't receive any feedback. But since this is a small text file, it shouldn't take more than a few seconds. Then press CTRL + C to exit the Netcat listener.
 5. Validate your download on the new terminal window with `cat users.db`
 ![](assets/users-db-validate.png)
-6. Now, we can use John the Ripper to try and crack the passwords. We'll be trying all of the password combinations in the provided wordlist (`wordlist.txt) in the repository.
+6. Now, we can use John the Ripper to try and crack the passwords. We'll be trying all of the password combinations in the provided wordlist (`wordlist.txt`) in the repository.
 7. Run John the Ripper `john --wordlist=path/to/wordlist.txt --format=bcrypt users.db`
 ![](assets/cracked.png)
