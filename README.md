@@ -27,7 +27,7 @@ This enviroment is for demonstration purposes ONLY. This should not be run in an
 
 ## Demonstration
 ### Exploitation
-1. Navigate to the target webpage in a web browser. `http://127.0.0.1:8888` (Note: screenshots include the target domain but are fabricated via modification of /etc/hosts. See this ![guide](https://kinsta.com/knowledgebase/edit-mac-hosts-file/) for more details
+1. Navigate to the target webpage in a web browser. `http://127.0.0.1:8888` (Note: screenshots include the target domain but are fabricated via modification of /etc/hosts. See this [guide](https://kinsta.com/knowledgebase/edit-mac-hosts-file/) for more details
 2. Login with the stolen credentials:
 ```
 Username: winston.smith@newspeakprinting.com
